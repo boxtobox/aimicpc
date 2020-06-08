@@ -28,5 +28,3 @@ for num in tuple(range((M, N+1))):
 
 
 
-for num in result:
-    print(num)
