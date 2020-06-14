@@ -3,8 +3,11 @@ def fib(n):
     beta = (1 - 5 ** 0.5) / 2
     a = 1 / 5 ** 0.5
 
-    return a * (alpha**n - beta**n)
+    return int(a * (alpha**n - beta**n))
 
-for i in range(1, 100):
-    print(fib(i))
+
+N = int(input())
+print(fib(N))
+# for i in range(0, 100):
+#     print(fib(i))
 
