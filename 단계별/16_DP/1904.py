@@ -1,8 +1,7 @@
 from sys import stdin
 from math import log2
-
-mod = 10 ** 6
-# MAX:  1000000000000000000
+# 2749와 같음
+mod = 15746
 
 
 def dec_to_bin(n):
@@ -28,7 +27,7 @@ def matrix_multiply(matA, matB):
     return [[(a*e + b*g) % mod, (a*f + b*h) % mod], [(c*e + d*g) % mod, (c*f + d*h) % mod]]
 
 
-N = int(stdin.readline())
+N = int(stdin.readline()) + 1
 if N == 0:
     print(0)
 elif N == 1:
